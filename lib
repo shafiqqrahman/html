@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+header
+{
+background-color: #bad61c;
+padding : 10px;
+margin-top: 0;
+}
+div.left
+{
+float:right; 
+width:85px;
+}
+div.lefts
+{
+width:15px;
+float:right; 
+}
+div.right
+{
+margin-left:13%;
+display: inline-block;
+width:0px;
+}
+div.bd
+{
+padding-top: 20px;
+padding-bottom:10px;
+}
+div.bads
+{
+margin-top:20px;
+margin-left:25px;
+}
+div.bad
+{
+margin-left:25px;
+}
+div.bgs
+{
+background-image: linear-gradient(black,green,blue);
+height:150px;
+}
+.button {
+background-color: black; 
+border: none;
+color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width:200px;
+  height:35px;
+  cursor: pointer;
+  margin-right:120px;
+}
+.button1 {
+border-radius: 20%;
+}
+</style>
+</head>
+<body>
+<header>
+<div>
+<div class="left"><b>Register</div>
+<div class="left">Sign In</div>
+<div class="left">Language</div>
+</div>
+<div class="lefts">
+<i class="material-icons" style="font-size:15px;">language</i>
+</div>
+</div>
+<div class="ab">
+<h2>Majdoor</h2>
+</div>
+<div>
+<div class ="right"><b>Home</div>
+<div class ="right">About</div>
+<div class ="right">Offers</div>
+<div class ="right">Contact</div>
+<div class ="right">Help</div>
+<div class ="right">Feedback</div>
+</div>
+</header>
+<section>
+<img src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" 
+alt="dsdf" height="380" width="1350">
+<div class="bgs">
+<div class="bd"><b>Services</div>
+<div class = "bad">
+<button class="button button1">Labour</button>
+<button class="button button1">Electrician</button>
+<button class="button button1">Painter</button>
+<button class="button button1">Fabricator</button>
+</div>
+<div class= "bads">
+<button class="button button1">Mechanic</button>
+<button class="button button1">Carpenter</button>
+<button class="button button1">Plumber</button>
+<button class="button button1">Pest Control</button>
+</div>
+</div>
+</section>
+</body>
+</html>
